@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Prog 209 Homework #5 - Card Game</title> 
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="cards.js" type="application/javascript"></script>
+    <script src="deck.js" type="application/javascript"></script>
+    <script src="game.js" type="application/javascript"></script>
+
+</head>
+
+<body>
+
+    <!-- <h2>War !</h2>   
+
+    <span id="pCard">Not Set</span>
+    <br />
+    <span id="cpuCard">Not Set</span>
+    <br />
+    <button id="deal">Deal !</button>
+    <button id="next">Next !</button> -->
+
+    <section>
+
+        <h2>War!</h2>
+
+        Turn Number: <label id="turnNumber">0</label>
+
+        <br/><br/>
+
+        <label>Player Score</label>
+        <label id="pScore">0</label>
+        <br/>
+        <label card = "card" id="pCard"></label>
+
+        <br/><br/>
+
+        <label>Computer Score</label>
+        <label id="cpuScore">0</label>
+        <br/>
+        <label card = "card" id="cpuCard"></label>
+
+        <br><br/>
+
+        <input type = "button" name = "deal" id = "deal" value="deal">
+        <input type = "button" name = "next" id = "next" value="next">
+        <div id="message">The Winner is...</div>
+    </section>
+
+</body>
+
+</html>
